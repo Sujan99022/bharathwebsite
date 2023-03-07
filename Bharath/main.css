@@ -1,0 +1,30 @@
+.scroll-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  .scroll-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .scroll-content a {
+    margin-right: 20px;
+  }
+  
+  .scroll-content img {
+    width: 80px;
+    height: 80px;
+    transition: transform .6s ease-in-out;
+    transform: rotate(0);
+    border-radius: 4px;
+  }
+  
+  .scroll-content img:hover {
+    transform: rotateY(180deg);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
+  
