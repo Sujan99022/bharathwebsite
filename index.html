@@ -17,7 +17,7 @@
   *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   body{
     margin: 0;
@@ -25,6 +25,11 @@
     overflow-x: hidden;
     /* background: #f6f3f3; */
     background: #f5f8fc;
+  }
+  @media (max-with:998px) {
+    body{
+      overflow-x: hidden;
+    }
   }
 ::-webkit-scrollbar {
   width: 4px;
@@ -3735,10 +3740,14 @@
     </section>
     <footer>
       <div class="container" style="display: flex;justify-content: space-around;">
-        <p><i class="fa fa-copyright" aria-hidden="true"></i> 2023 - Made with <i style="color
-        :red;" class="fa fa-heart" aria-hidden="true"></i> By <span style="color
-        :rgba(255, 255, 255, 0.836);">- SUJAN R</span></p>
-        <span class="footer-logo-text">LuckyKannadaTech</span>
+        <div class="row">
+          <div class="col-md-6 col-12 order-md-2 order-1"><p><i class="fa fa-copyright" aria-hidden="true"></i> 2023 - Made with <i style="color
+            :red;" class="fa fa-heart" aria-hidden="true"></i> By <span style="color
+            :rgba(255, 255, 255, 0.836);">- SUJAN R</span></p></div>
+          <div class="col-md-6 pt-3 col-12">
+            <span class="footer-logo-text">LuckyKannadaTech</span>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- Optional JavaScript -->
