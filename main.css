@@ -265,5 +265,20 @@ background: #b30000;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   }
-
-  
+  .pp{
+    font-size: 27px;
+    color: #444;
+  }
+  .ppHead{
+    font-weight: 600;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 25px;
+    font-family: 'Open Sans','Arial',sans-serif;
+  }
+  .ppBody{
+    font-weight: 400;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 25px;
+  }

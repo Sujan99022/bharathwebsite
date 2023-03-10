@@ -8,6 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/726b0b9ea4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<link rel="icon" href="images/logoLuckyKannadiga.jpg" type="image/x-icon"/>
     <link rel="stylesheet" href="main.css">  
 </head>
   <body>
@@ -33,11 +38,11 @@
             <li class="nav-item">
              
               <div class="dropdown">
-                <button class="btn btn-link nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-link nav-link dropdown-toggle active" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   About Us
                 </button>
                 <div class="dropdown-menu dd" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item nav-linkk active" href="contactUs.html">Contact Us</a>
+                  <a class="dropdown-item nav-linkk active" style="background: rgba(0, 0, 0, 0.47);" href="contactUs.html">Contact Us</a>
                   <a class="dropdown-item nav-linkk" href="privacyPolicy.html">Privacy Policy</a>
                 </div>
               </div>
@@ -49,6 +54,42 @@
       </nav>
 
 
+      <div class="container">
+        <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">Contact us</h4>
+                                            <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
+                                              <form action="">
+                                                <p class="my-4" style="size:13px;color: #4c4c4c;">Your email address will not be published. Required fields are marked *</p>
+                                               
+                                                
+                                                <label style="size:13px;color: #4c4c4c;" for="Name" class="mt-2">Your Name *</label>
+                                                <input type="text" style="background: #F2F2F2;" class="form-control" name="Name" id="Name" required>
+                                                
+                                                <label style="size:13px;color: #4c4c4c;" for="Email" class="mt-2">your Email *</label>
+                                                <input type="email" style="background: #F2F2F2;" class="form-control" name="Email" id="Email" required>
+
+                                                <label style="size:13px;color: #4c4c4c;" for="Subject" class="my-2">Subject *</label>
+                                                <input type="text" style="background: #F2F2F2;" class="form-control" name="subject" id="subject" required>
+                                                
+                                                <label style="size:13px;color: #4c4c4c;" class="my-2" for="Comment">Your Message(Optional)</label>
+                                                <textarea style="background: #F2F2F2; resize: none;" name="Comment" class="form-control" id="Comment" cols="30" rows="10"></textarea>
+
+                                                <input class="btn btn-danger my-4" type="submit" value="Submit">
+                                              </form>
+                                            </section>
+      </div>
+      <footer>
+        <div class="container" style="display: flex;justify-content: center;">
+          <div class="row">
+           
+              <div class="pt-3 col-12 d-flex justify-content-center">
+                <span class="footer-logo-text">LuckyKannadaTech</span>
+              </div>
+           <div class="col-12  order-md-2 order 1 d-flex justify-content-center"><p><i class="fa fa-copyright" aria-hidden="true"></i> 2023 - Made with <i style="color
+              :red;" class="fa fa-heart" aria-hidden="true"></i> By <span style="color
+              :rgba(255, 255, 255, 0.836);">- SUJAN R</span></p></div>
+          </div>
+        </div>
+      </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
