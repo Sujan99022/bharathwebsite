@@ -13,236 +13,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="main.css">
-<style>
-  *{
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
-  }
-  body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    /* background: #f6f3f3; */
-    background: #f5f8fc;
-  }
-  @media (max-with:998px) {
-    body{
-      overflow-x: hidden;
-    }
-  }
-::-webkit-scrollbar {
-  width: 4px;
-  height: 4px;
-}
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}
-    .nav-item{
-        font-size: .9rem;
-        margin-left: 10px;
-        margin-right: 10px;
-        color: black;
-    }
-    .itEm{
-      /* height: 40px; */
-      padding-left: 25px;
-      padding-right: 10px;
-      padding-top: 15px;
-      padding-bottom: 12px;
-      margin: 0px 10px;
-      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 5%);
-      margin-top: 40px;
-      background: white;
-      border-bottom: 2px solid rgb(255, 0, 225);
-      cursor: pointer;
-    }
-    .itEm:hover{
-      border-bottom: 2px solid red;
-    }
-    .catagory{
-      font-size: 0.8rem;
-      margin: 0;
-      padding: 0;
-      color: rgb(255, 0, 217);
-      box-sizing: border-box;
-
-    }
-    .version{
-      font-size: 0.8rem;
-    }
-    .yes{
-      color: #ffc107;
-    }
-    .no{
-      color:black;
-    }
-    ul{
-      margin: 0;
-      padding: 0;
-    }
-    li{
-      display: inline;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .free{
-      color: #198754;
-    }
-    .navbar{
-      border-bottom: 1px solid rgb(254, 0, 224);
-    }
-    .navbar-brand{
-      font-size: 22px;
-      font-weight: 500;
-      /* letter-spacing: .1rem; */
-      font-family: 'Rubik Wet Paint', cursive;
-    }
-    @media (max-width:990px) {
-      .navbar-brand{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-    }
-    .side-list{
-      background: white;
-    }
-    .side-text-btn{
-      color: black;
-      text-decoration: none;
-      font-size: .9rem;
-    }
-    .side-text-btn:hover{
-      text-decoration: none;
-      color: red;
-    }
-    .dropdown-link{
-      text-decoration: none;
-      color: black;
-    }
-    .dropdown-link:hover{
-      text-decoration: none;
-    }
-    h5{
-      font-size: .9rem;
-    }
-    .nav-item{
-      margin-right: 25px;
-      margin-left: 25px;
-    }
-    .nav-link{
-      text-transform: uppercase;
-      letter-spacing: .2rem;
-      font-size: .8rem;
-    }
-    .active{
-      font-weight: 600;
-      border-bottom: 2px solid rgb(255, 0, 217);
-    }
-    .card-header{
-      padding-left: 0;
-      padding-right: 0;
-      padding-top: 4px;
-      padding-bottom: 4px;
-      box-shadow: none;
-      border: none;
-    }
-    .side-list-body{
-      /* background: #f6f3f3; */
-      background: #f5f8fc;
-    }
-    footer{
-      margin-top: 60px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      /* background: url('images/footerback2.jpg');
-      background-position: center;
-      background-size: cover; */
-      background: rgb(45, 44, 44);
-    }
-    footer p{
-      display: inline-block;
-      margin: 0;
-      padding:20px;
-      color: rgba(211, 207, 207, 0.482);
-      font-size: .9rem;
-    }
-    .footer-logo-text{
-      color: rgb(220, 217, 217);
-      margin: 12px;
-      font-size: 26px;
-      font-weight: 700;
-      font-family: 'Rubik Wet Paint', cursive;
-    }
-    .catagories{
-      text-transform: uppercase;
-      letter-spacing: .1rem;
-      font-size: .9rem;
-    }
-    .card-body{
-      background: #f6f3f3;
-    }
-    .socialmedia{
-      display: flex;
-      justify-content: center;
-      height: 50px;
-      margin-top: 40px;
-      margin-bottom: 0;
-    }
-    .socialmedia a{
-      margin-left: 20px;
-      margin-right: 20px;
-      transition-duration: .5s;
-    }
-    .socialmedia a:hover{
-      transform:translateY(-8%);
-      box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
-    }
-    .socialmedia a img{
-      width: 100%;
-      height: 100%;
-    }
-    .nav-linkk{
-      color: rgb(135, 135, 135);
-      text-decoration: none;
-      font-size: .8rem;
-      text-transform: uppercase;
-      letter-spacing: .1rem;
-    }
-    .dd{
-      transform: translateY(-2px);
-      animation: an .5s linear 0s forwards normal running;
-    }
-    @keyframes an {
-      from{
-        transform: translateY(8%);
-      }
-      to{
-        transform: translateY(0);
-      }
-    }
-</style>  
-</head>
+ </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">LuckyKannadaTech</a>
+        <a class="navbar-brand" href="index.html">LuckyKannadaTech</a>
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> -->
         <div class="collapse navbar-collapse" id="navbarNav" style="display: flex; justify-content: center;align-items: center;">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Best Earning Apps</a>
@@ -260,8 +41,8 @@
                   About Us
                 </button>
                 <div class="dropdown-menu dd" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item nav-linkk" href="#">Contact Us</a>
-                  <a class="dropdown-item nav-linkk" href="#">Privacy Policy</a>
+                  <a class="dropdown-item nav-linkk" href="contactUs.html">Contact Us</a>
+                  <a class="dropdown-item nav-linkk" href="privacyPolicy.html">Privacy Policy</a>
                 </div>
               </div>
 
@@ -288,10 +69,8 @@
     
         <div id="collapseOne" class="collapse side-list-body" aria-labelledby="headingOne" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -305,10 +84,8 @@
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+          
           </div>
         </div>
       </div>
@@ -325,10 +102,8 @@
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+           
           </div>
         </div>
       </div>
@@ -346,10 +121,8 @@
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -367,10 +140,8 @@
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -388,10 +159,8 @@
         </div>
         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+          
           </div>
         </div>
       </div>
@@ -409,10 +178,8 @@
         </div>
         <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+          
           </div>
         </div>
       </div>
@@ -430,10 +197,8 @@
         </div>
         <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+          
           </div>
         </div>
       </div>
@@ -451,10 +216,8 @@
         </div>
         <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -472,10 +235,8 @@
         </div>
         <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+           
           </div>
         </div>
       </div>
@@ -493,10 +254,8 @@
         </div>
         <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -514,10 +273,8 @@
         </div>
         <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -535,10 +292,8 @@
         </div>
         <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+           
           </div>
         </div>
       </div>
@@ -556,10 +311,8 @@
         </div>
         <div id="collapseFourteen" class="collapse" aria-labelledby="Fourteen" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+            
           </div>
         </div>
       </div>
@@ -577,10 +330,8 @@
         </div>
         <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+           
           </div>
         </div>
       </div>
@@ -598,10 +349,8 @@
         </div>
         <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+           
           </div>
         </div>
       </div>
@@ -619,10 +368,8 @@
         </div>
         <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion">
           <div class="card-body">
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
-            <li>abcd</li>
+            <li class="comingSoon">Coming Soon</li>
+          
           </div>
         </div>
       </div>
@@ -655,7 +402,7 @@
 
           </div>
       
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".bd-example-modal-lg">  
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".bd-example-modal-lg">  
             <div class="row">
                            <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                             <img src="https://play-lh.googleusercontent.com/6aip6cA1FpuPr2xNbunIOph5L3jp_CF2FfoVwYlYSsdkrZdPAKO_oTw1gPTiBhPDwrU=w240-h480-rw" class="img-fluid">
@@ -737,9 +484,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">So what are you waiting for, go ahead and download this app, thanks</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -756,7 +503,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -782,7 +529,7 @@
           </div>
 
 
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".one">
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".one">
                    
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
@@ -882,9 +629,9 @@
                                                  </ul>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -901,7 +648,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -925,7 +672,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".two">
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".two">
        
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
@@ -1005,9 +752,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">So what are you waiting for today go and download this app and start earning from home Thanks friends for visiting our website!</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1024,7 +771,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -1048,7 +795,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".three">
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".three">
        
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
@@ -1133,9 +880,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">cashbazz is such an app through which you can easily earn by playing online games from anywhere and also through this you can earn by playing online games sitting at home and you can convert that earning into your account. There is a very good online earning app to earn money online.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1152,7 +899,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -1176,7 +923,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".four">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".four">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/AcM79Y-PPGSVNpy4YHaHt6ICkAlGTSTlbBMYiOMOCCMiEYQ0GIfyPaYfzq5XHbn9_5s" class="img-fluid">
@@ -1254,9 +1001,9 @@
                                              <p class="m-0 text-justify" style="color:#4c4c4c;"><b>Note: </b>All the gift tasks of Wepointz are their own and not of Google Inc. So what are you waiting for, download this app today and earn and share your free time thanks friends</p>
                                         </section>
 
-                                        <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                        <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                        <section class="my-4">
+                                        <!-- <section class="my-4">
                                           <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                             <div class="scroll-content">
                                               <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1273,7 +1020,7 @@
                                               <a href="#"><img src="images/Royal Wallet.png"></a>
                                             </div>
                                           </div>  
-                                        </section>
+                                        </section> -->
 
 
                                         <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -1298,7 +1045,7 @@
         </div>
       </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".five">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".five">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/q-8PjfKT0F0wtCgpjsc5xh9YsOcUjtPyUWUcwGIIvBqhDUYq60DZHpsIkAANPu6oQqmj" class="img-fluid">
@@ -1390,9 +1137,9 @@
                                                 </p>
                                                 </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1409,7 +1156,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -1431,7 +1178,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".six">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".six">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://www.coolztricks.com/wp-content/uploads/2022/02/Untitled-12.png" class="img-fluid">
@@ -1514,9 +1261,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">3. Buy gift cards and other cash rewards with reward coins.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1533,7 +1280,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -1555,7 +1302,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".sixx">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".sixx">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://apksos.com/storage/images/com/funstar/android/com.funstar.android_1.png" class="img-fluid">
@@ -1634,9 +1381,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">Like this and follow our website ( SBJ HUB ) to download Earning App Thanks!</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1653,7 +1400,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -1675,7 +1422,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".seven">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".seven">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/6V8HvE0_A7SKRQYK-LqbMOPwIwg3LODpsoV6x5rpe85iITrGs3qobALQgcssrRTz2GA" class="img-fluid">
@@ -1755,7 +1502,7 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">B-Love Token can be staked and rewarded on the B-Love Network App. The BFIC Blockchain is used to build the BLV community token. On the B-Love Network app, users can stake the BLV token and receive a daily staking reward of 0.8 percent.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
                                             <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
@@ -1796,7 +1543,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".eight">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".eight">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="images/King Reward-Easy gift Card.png" class="img-fluid">
@@ -1876,10 +1623,10 @@
                                                   You can play our free online games to win prizes!
                                                   You can get everything you need with the King Reward-Easy gift card.</p>
                                             </section>
+<!-- 
+                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
-
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -1896,7 +1643,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -1918,7 +1665,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".nine">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".nine">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="images/CheQ  Easy Repayments, Real Rewards.png" class="img-fluid">
@@ -1996,9 +1743,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">Hello friends, how are you all, today we have brought a platform for you which is the number one platform for you to pay all your credit card bills, loan EMI etc. at one place and you can also get 1% cashback from this. The name of the app is CheQ and from this you can also get check chips by making daily payment.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2015,7 +1762,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -2037,7 +1784,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".ten">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".ten">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="images/Royal Wallet.png" class="img-fluid">
@@ -2116,9 +1863,9 @@
                                                   So what are we waiting for, go and download this app today and earn more and more extra income. Thanks</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2135,7 +1882,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -2159,7 +1906,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".eleven">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".eleven">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="images/Money Hi Online Earning AppMoney Hi Online Earning App.png" class="img-fluid">
@@ -2248,9 +1995,9 @@
                                                   <p class="m-0 text-justify" style="color:#4c4c4c;">5.Daily check in this app and earn money</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2267,7 +2014,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -2291,7 +2038,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".tweleve">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".tweleve">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/JC-8rL32R_5Y7Dm3KWekBUf4bR3EArRf13PJtzWb_218hsC83C-YEV8FbLiKwR74bkQ" class="img-fluid">
@@ -2378,9 +2125,9 @@
                                                   Multi-Payment</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2397,7 +2144,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -2419,7 +2166,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".thirteen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".thirteen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/2mDuBb5330-hxu88bFJ1a8CiJp0u9T6CecqzCnYnyF7oM5N2O90X7DxdONVI2ehqMitY" class="img-fluid">
@@ -2502,9 +2249,9 @@
                                                   Example: Agar aapke dost kamayenge Rs 1,00,000 to aapko bhi milenge Rs 10,000 (10%) har bar! Refer karo aur kamao zindagi bhar</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2521,7 +2268,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -2543,7 +2290,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".fourteen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".fourteen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="images/In Cash online Earning App.png" class="img-fluid">
@@ -2627,9 +2374,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">– Refer link to your friends and family and earn more Money.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2646,7 +2393,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -2668,7 +2415,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".fifteen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".fifteen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/ZKf0SbQ4Lq28Y0clUkrRYxnory1SJzN0Hncu34o5EZmudUjH3OMgWNr9Er1Su18mzbE" class="img-fluid">
@@ -2751,9 +2498,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">-Once you join the program and with it he can start earning</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2770,7 +2517,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -2792,7 +2539,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".sixteen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".sixteen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/aAfQd3MqaJfYKe8SyFn1XDyyvv0Y9BimLc-oUVGJNACDBjwmSKsYo2wJXBOgpcZZu58" class="img-fluid">
@@ -2876,9 +2623,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">Through this, you can also get Google Play Guard, with the help of which you can buy Diamonds from that card. You no longer need to worry about getting banned from your favorite gaming platform! And it requires a little free time to use, not much. If you love to earn money by playing games, then this app is one of your favorite platforms. All you have to do is watch ads, watch videos and complete small tasks like filling online surveys to earn and redeem points. We buy and transfer currency only from the official website of the game provider. Don’t worry at all, none of your game account/ID will be banned. This is a legal and official money transfer.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -2895,7 +2642,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -2917,7 +2664,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".seventeen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".seventeen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/oUkmCh_dMH7dsNjr7ZzSWeCzD66tJss6J80oUb8pUpG0hDdjacAlDJzuvqooyD20HQ" class="img-fluid">
@@ -3004,9 +2751,9 @@
 
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -3023,7 +2770,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -3045,7 +2792,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".eighteen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".eighteen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/MJtOszUBqDUgUR7Nl185tkkAxwNTlhnqBF1KmSsfy0E3VZeji90SzacTRW13gahFHw" class="img-fluid">
@@ -3126,9 +2873,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">We have low payment thresholds. This means that you can quickly cash out using PayPal.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -3145,7 +2892,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -3169,7 +2916,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".nineteen">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".nineteen">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/EQMpr5awt_tEBjaz6XbR4JRRTcGrj-bIsrPO2GW9XZqju7VYwxL8v4iFJgXGjdOBnt8Y" class="img-fluid">
@@ -3250,10 +2997,10 @@
 
                                                   Ensure the financial viability of every Indian by ensuring that they all have a gold-based portfolio, whether they earn gold by shopping, saving, or investing. Be THE MIDAS TOUCH, a magical, golden touch, on each and every payment.</p>
                                             </section>
+<!-- 
+                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
-
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -3270,7 +3017,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -3292,7 +3039,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".twenty">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".twenty">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://play-lh.googleusercontent.com/yZNjrlHTEGYSAoIKLFd4VMGtRfbE0HPva-ElVRmzll7aE2VPD15gVCu64UaCZoQsqA" class="img-fluid">
@@ -3375,9 +3122,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">Ensure the financial viability of every Indian by ensuring that they all have a gold-based portfolio, whether they earn gold by shopping, saving, or investing. Be THE MIDAS TOUCH, a magical, golden touch, on each and every payment.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -3394,7 +3141,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -3416,7 +3163,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".twentyOne">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".twentyOne">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="https://sbjhub.com/wp-content/uploads/2023/02/unnamed-2023-02-12T171251.468.webp" class="img-fluid">
@@ -3496,9 +3243,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">Friends, if you also want money, then you are on the right app, this app is 100% real, in this you can earn by doing captcha.</p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -3515,7 +3262,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
 
 
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
@@ -3539,7 +3286,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-12 itEm" data-toggle="modal" data-target=".twentyTwo">       
+          <div class="col-lg-3 col-md-4 col-12 itEm" data-toggle="modal" data-target=".twentyTwo">       
             <div class="row">
               <div class="col-3 p-0" style="display: flex;justify-content: center;align-items: center;">
                <img src="images/com.idekho.oneapp_1.png" class="img-fluid">
@@ -3619,9 +3366,9 @@
                                                  <p class="m-0 text-justify" style="color:#4c4c4c;">On this you will get many categories according to your choice, so why delay, download this app today </p>
                                             </section>
 
-                                            <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>  
+                                            <!-- <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">RELATED APPS <span>>>></span></h4>   -->
 
-                                            <section class="my-4">
+                                            <!-- <section class="my-4">
                                               <div class="scroll-wrapper"style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                                 <div class="scroll-content">
                                                   <a href="#"><img src=https://play-lh.googleusercontent.com/LPwoIHznsLNAzzsS3mPnACxPMKB7wNReMhopTvcxp25CAznWOJKJtOOdOWlQgD0kaw                                                    "></a>
@@ -3638,7 +3385,7 @@
                                                   <a href="#"><img src="images/Royal Wallet.png"></a>
                                                 </div>
                                               </div>  
-                                            </section>
+                                            </section> -->
                                             <h4 class="pt-3 px-2" style="color: rgba(88, 88, 88, 0.696);">LEAVE A REPLY</h4>
                                             <section class="my-3 p-3" style="background: #f5f8fc;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.18);">
                                               <form action="">
@@ -3909,14 +3656,15 @@
   </div>
     </section>
     <footer>
-      <div class="container" style="display: flex;justify-content: space-around;">
+      <div class="container" style="display: flex;justify-content: center;">
         <div class="row">
-          <div class="col-md-6 col-12 order-md-2 order-1"><p><i class="fa fa-copyright" aria-hidden="true"></i> 2023 - Made with <i style="color
+         
+            <div class="pt-3 col-12 d-flex justify-content-center">
+              <span class="footer-logo-text">LuckyKannadaTech</span>
+            </div>
+         <div class="col-12  order-md-2 order 1 d-flex justify-content-center"><p><i class="fa fa-copyright" aria-hidden="true"></i> 2023 - Made with <i style="color
             :red;" class="fa fa-heart" aria-hidden="true"></i> By <span style="color
             :rgba(255, 255, 255, 0.836);">- SUJAN R</span></p></div>
-          <div class="col-md-6 pt-3 col-12">
-            <span class="footer-logo-text">LuckyKannadaTech</span>
-          </div>
         </div>
       </div>
     </footer>

@@ -1,3 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* background: #f6f3f3; */
+  background: #f5f8fc;
+}
+@media (max-with:998px) {
+  body{
+    overflow-x: hidden;
+  }
+}
+::-webkit-scrollbar {
+width: 4px;
+height: 4px;
+}
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: red; 
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #b30000; 
+}
+  .nav-item{
+      font-size: .9rem;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: black;
+  }
+  .itEm{
+    /* height: 40px; */
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    margin: 0px 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    margin-top: 40px;
+    background: white;
+    border-bottom: 2px solid rgb(255, 0, 225);
+    cursor: pointer;
+  }
+  .itEm:hover{
+    border-bottom: 2px solid red;
+  }
+  .catagory{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 0, 217);
+    box-sizing: border-box;
+
+  }
+  .version{
+    font-size: 0.8rem;
+  }
+  .yes{
+    color: #ffc107;
+  }
+  .no{
+    color:black;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .free{
+    color: #198754;
+  }
+  .navbar{
+    border-bottom: 1px solid rgb(254, 0, 224);
+  }
+  .navbar-brand{
+    font-size: 22px;
+    font-weight: 500;
+    /* letter-spacing: .1rem; */
+    font-family: 'Rubik Wet Paint', cursive;
+  }
+  @media (max-width:990px) {
+    .navbar-brand{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .side-list{
+    background: white;
+  }
+  .side-text-btn{
+    color: black;
+    text-decoration: none;
+    font-size: .9rem;
+  }
+  .side-text-btn:hover{
+    text-decoration: none;
+    color: red;
+  }
+  .dropdown-link{
+    text-decoration: none;
+    color: black;
+  }
+  .dropdown-link:hover{
+    text-decoration: none;
+  }
+  h5{
+    font-size: .9rem;
+  }
+  .nav-item{
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .nav-link{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .8rem;
+  }
+  .active{
+    font-weight: 600;
+    border-bottom: 2px solid rgb(255, 0, 217);
+  }
+  .card-header{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: none;
+    border: none;
+  }
+  .side-list-body{
+    /* background: #f6f3f3; */
+    background: #f5f8fc;
+  }
+  footer{
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background: url('images/footerback2.jpg');
+    background-position: center;
+    background-size: cover; */
+    background: rgb(45, 44, 44);
+  }
+  footer p{
+    display: inline-block;
+    margin: 0;
+    padding:20px;
+    color: rgba(211, 207, 207, 0.482);
+    font-size: .9rem;
+  }
+  .footer-logo-text{
+    color: rgb(220, 217, 217);
+    margin: 12px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Rubik Wet Paint', cursive;
+  }
+  .catagories{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+  }
+  .card-body{
+    background: #f6f3f3;
+  }
+  .socialmedia{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .socialmedia a{
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: .5s;
+  }
+  .socialmedia a:hover{
+    transform:translateY(-8%);
+    box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
+  }
+  .socialmedia a img{
+    width: 100%;
+    height: 100%;
+  }
+  .nav-linkk{
+    color: rgb(135, 135, 135);
+    text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  .dd{
+    transform: translateY(-2px);
+    animation: an .5s linear 0s forwards normal running;
+  }
+  @keyframes an {
+    from{
+      transform: translateY(8%);
+    }
+    to{
+      transform: translateY(0);
+    }
+  }
+  .comingSoon{
+    color: black;
+    animation: cs 2s linear 0s infinite normal forwards running;
+  }
+  @keyframes cs {
+    0%{
+     color: rgb(200, 255, 0);
+    }
+    30%{
+     color: rgb(0, 255, 0);
+    }
+    60%{
+     color: rgb(0, 149, 255);
+    }
+    90%{
+     color: rgb(238, 0, 255);
+    }
+    100%{
+      color: black;
+    }
+  }
 .scroll-wrapper {
     width: 100%;
     overflow-x: scroll;
@@ -27,4 +265,5 @@
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   }
+
   
